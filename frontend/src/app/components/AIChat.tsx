@@ -19,7 +19,7 @@ export function AIChat() {
           <MessageCircle className="w-5 h-5 text-white" />
         </div>
         <div>
-          <h2 className="text-[#371A0A]">Ask Your AI Health Assistant</h2>
+          <h2 className="text-[#371A0A]">Hi, I'm mAI! Ask me anything</h2>
           <p className="text-sm text-[#6B5D4F]">Get personalized insights about your health data</p>
         </div>
       </div>

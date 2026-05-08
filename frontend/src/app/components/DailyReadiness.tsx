@@ -10,7 +10,7 @@ export function DailyReadiness() {
           <p className="text-[#6B5D4F]">Thursday, May 7, 2026</p>
         </div>
         <div className="text-right">
-          <div className="text-5xl font-['Momo'] text-[#9CAE5A] mb-1">87</div>
+          <div className="text-5xl font-['Momo_Trust_Display'] text-[#9CAE5A] mb-1">87</div>
           <p className="text-sm text-[#6B5D4F]">Optimal</p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import { User, Home, Edit3, MessageCircle, Settings, UserCircle } from 'lucide-react';
+import { Home, Edit3, MessageCircle, UserCircle } from 'lucide-react';
 import React from 'react';
 
 interface NavigationProps {
@@ -12,7 +12,7 @@ export function Navigation({ currentPage, onNavigate }: NavigationProps) {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-8">
-            <h1 className="font-['Momo'] text-2xl text-[#371A0A]">Luna</h1>
+            <h1 className="font-['Momo_Trust_Display'] text-2xl text-[#371A0A]">mAI</h1>
             <div className="flex gap-6">
               <button
                 onClick={() => onNavigate('dashboard')}
@@ -59,17 +59,6 @@ export function Navigation({ currentPage, onNavigate }: NavigationProps) {
                 <span>Profile</span>
               </button>
             </div>
-          </div>
-          <div className="flex items-center gap-4">
-            <button className="text-[#6B5D4F] hover:text-[#371A0A] transition-colors">
-              <Settings className="w-5 h-5" />
-            </button>
-            <button
-              onClick={() => onNavigate('profile')}
-              className="w-10 h-10 rounded-full bg-[#9CAE5A] flex items-center justify-center text-white"
-            >
-              <User className="w-5 h-5" />
-            </button>
           </div>
         </div>
       </div>

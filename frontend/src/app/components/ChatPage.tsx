@@ -19,7 +19,7 @@ const suggestedPrompts = [
 const initialMessages: Message[] = [
   {
     role: 'assistant',
-    content: "Hi! I'm your AI health coach. I can help you understand your health patterns, answer questions about your training, cycle, recovery, and provide personalized recommendations. What would you like to know?",
+    content: "Hi! I'm mAI, your AI health coach. I can help you understand your health patterns, answer questions about your training, cycle, recovery, and provide personalized recommendations. What would you like to know?",
   },
 ];
 
@@ -59,7 +59,7 @@ export function ChatPage() {
             <Sparkles className="w-6 h-6 text-white" />
           </div>
           <div>
-            <h1 className="text-[#371A0A]">AI Health Coach</h1>
+            <h1 className="text-[#371A0A]">mAI Coach</h1>
             <p className="text-sm text-[#6B5D4F]">Ask me anything about your health and wellness</p>
           </div>
         </div>
@@ -81,7 +81,7 @@ export function ChatPage() {
               {message.role === 'assistant' && (
                 <div className="flex items-center gap-2 mb-2">
                   <Sparkles className="w-4 h-4 text-[#9CAE5A]" />
-                  <span className="text-xs text-[#6B5D4F]">AI Health Coach</span>
+                  <span className="text-xs text-[#6B5D4F]">mAI</span>
                 </div>
               )}
               <p className="leading-relaxed">{message.content}</p>

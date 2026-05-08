@@ -22,7 +22,7 @@ export default function App() {
         <footer className="max-w-7xl mx-auto px-6 py-12 mt-16 border-t border-[#371A0A]/10">
           <div className="text-center text-[#6B5D4F] text-sm">
             <p className="mb-2">Your AI-powered wellness companion</p>
-            <p className="font-['Momo'] text-xl text-[#371A0A]">Luna</p>
+            <p className="font-['Momo_Trust_Display'] text-xl text-[#371A0A]">mAI</p>
           </div>
         </footer>
       )}

@@ -11,6 +11,10 @@ dependencies = [
     "uvicorn[standard]>=0.32.0",
     # Settings management — typed environment variables loaded from .env.
     "pydantic-settings>=2.5.0",
+    # ORM — defines tables as Python classes, translates to SQL.
+    "sqlmodel>=0.0.22",
+    # Migrations — versioned schema changes for the database.
+    "alembic>=1.14.0",
 ]
 
 [dependency-groups]

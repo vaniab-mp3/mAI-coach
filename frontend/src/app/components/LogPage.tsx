@@ -109,6 +109,7 @@ export function LogPage() {
           </button>
         </div>
 
+        {/* Run log */}
         <div className="bg-white rounded-3xl p-8 shadow-sm border border-[#371A0A]/5">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-12 rounded-full bg-[#BA5C12]/20 flex items-center justify-center">
@@ -155,7 +156,7 @@ export function LogPage() {
 
             <input
               type="text"
-              placeholder="Max Heart Rate"
+              placeholder="Calories burned"
               className="px-4 py-3 rounded-xl bg-white border border-[#371A0A]/10 text-[#371A0A] placeholder-[#6B5D4F] outline-none focus:ring-2 focus:ring-[#9CAE5A]"
             />
 
@@ -172,7 +173,6 @@ export function LogPage() {
             <span>Save Workout</span>
           </button>
         </div>
-        {/* end of run log*/}
 
         {/* Period & Cycle Log */}
         <div className="bg-white rounded-3xl p-8 shadow-sm border border-[#371A0A]/5">
@@ -213,7 +213,7 @@ export function LogPage() {
             <div>
               <label className="block text-sm text-[#371A0A] mb-3">Symptoms</label>
               <div className="grid grid-cols-3 gap-3">
-                {['Cramps', 'Fatigue', 'Bloating', 'Headache', 'Mood changes', 'Cravings'].map(
+                {['Cramps', 'Fatigue', 'Bloating', 'Back pain', 'Mood changes', 'Cravings'].map(
                   (symptom) => (
                     <button
                       key={symptom}

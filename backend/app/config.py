@@ -33,6 +33,13 @@ class Settings(BaseSettings):
     # exposed as a list via the property below.
     cors_origins: str = "http://localhost:5173,http://localhost:3000"
 
+    # Database connection string. Default: SQLite file in the backend/ folder.
+    # Format reference:
+    #   sqlite:///./mai_coach.db   -> relative path
+    #   sqlite:////absolute/path   -> absolute path (note four slashes)
+    #   postgresql://user:pw@host  -> when we eventually move off SQLite
+    database_url: str = "sqlite:///./mai_coach.db"
+
     @property
     def cors_origin_list(self) -> list[str]:
         """Parse the comma-separated CORS origins into a clean list."""

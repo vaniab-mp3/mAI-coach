@@ -1,5 +1,12 @@
 venv/
+.venv/
 node_modules/
 .env
 __pycache__/
+*.pyc
 .DS_Store
+
+# uv / pytest / ruff caches
+.uv-cache/
+.pytest_cache/
+.ruff_cache/

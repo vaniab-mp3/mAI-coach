@@ -109,6 +109,71 @@ export function LogPage() {
           </button>
         </div>
 
+        <div className="bg-white rounded-3xl p-8 shadow-sm border border-[#371A0A]/5">
+          <div className="flex items-center gap-3 mb-6">
+            <div className="w-12 h-12 rounded-full bg-[#BA5C12]/20 flex items-center justify-center">
+              <Dumbbell className="w-6 h-6 text-[#BA5C12]" />
+            </div>
+            <div>
+              <h2 className="text-[#371A0A]">Run Log</h2>
+              <p className="text-sm text-[#6B5D4F]">Record your run</p>
+            </div>
+          </div>
+
+          <div className="space-y-4">
+          <div className="grid grid-cols-2 gap-4">
+
+            <input
+              type="text"
+              placeholder="Distance (miles)"
+              className="px-4 py-3 rounded-xl bg-white border border-[#371A0A]/10 text-[#371A0A] placeholder-[#6B5D4F] outline-none focus:ring-2 focus:ring-[#9CAE5A]"
+            />
+
+            <input
+              type="text"
+              placeholder="Pace (min/mile)"
+              className="px-4 py-3 rounded-xl bg-white border border-[#371A0A]/10 text-[#371A0A] placeholder-[#6B5D4F] outline-none focus:ring-2 focus:ring-[#9CAE5A]"
+            />
+
+            <input
+              type="text"
+              placeholder="Duration (minutes)"
+              className="px-4 py-3 rounded-xl bg-white border border-[#371A0A]/10 text-[#371A0A] placeholder-[#6B5D4F] outline-none focus:ring-2 focus:ring-[#9CAE5A]"
+            />
+
+            <input
+              type="text"
+              placeholder="Elevation Gain (ft)"
+              className="px-4 py-3 rounded-xl bg-white border border-[#371A0A]/10 text-[#371A0A] placeholder-[#6B5D4F] outline-none focus:ring-2 focus:ring-[#9CAE5A]"
+            />
+
+            <input
+              type="text"
+              placeholder="Average Heart Rate"
+              className="px-4 py-3 rounded-xl bg-white border border-[#371A0A]/10 text-[#371A0A] placeholder-[#6B5D4F] outline-none focus:ring-2 focus:ring-[#9CAE5A]"
+            />
+
+            <input
+              type="text"
+              placeholder="Max Heart Rate"
+              className="px-4 py-3 rounded-xl bg-white border border-[#371A0A]/10 text-[#371A0A] placeholder-[#6B5D4F] outline-none focus:ring-2 focus:ring-[#9CAE5A]"
+            />
+
+            <textarea
+              placeholder="Run notes (optional)"
+              className="col-span-2 px-4 py-3 rounded-xl bg-white border border-[#371A0A]/10 text-[#371A0A] placeholder-[#6B5D4F] outline-none focus:ring-2 focus:ring-[#9CAE5A] min-h-[120px]"
+            />
+
+          </div>
+        </div>
+
+          <button className="mt-6 flex items-center gap-2 px-6 py-3 rounded-xl bg-[#BA5C12] text-white hover:bg-[#A04E10] transition-colors">
+            <Save className="w-4 h-4" />
+            <span>Save Workout</span>
+          </button>
+        </div>
+        {/* end of run log*/}
+
         {/* Period & Cycle Log */}
         <div className="bg-white rounded-3xl p-8 shadow-sm border border-[#371A0A]/5">
           <div className="flex items-center gap-3 mb-6">
